@@ -41,6 +41,8 @@ public final class QueryUtils {
             Log.e(LOG_TAG, "Error in making connection", e);
         }
         List<Earthquake> list=extractFeaturesfromJson(JSONresponse);
+        Log.v(LOG_TAG,"fetchEarthquakeData() exectued....");
+
         return list;
     }
     /*
