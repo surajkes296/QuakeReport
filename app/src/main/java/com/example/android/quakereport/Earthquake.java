@@ -6,11 +6,11 @@ public class Earthquake {
     private long mTimeInMilliseconds;
     private String mUri;
 
-    public Earthquake(double magnitude,String location,long timiInMilliSeconds,String url){
+    public Earthquake(double magnitude,String location,long timiInMilliSeconds,String uri){
         mMagnitude=magnitude;
         mLocation=location;
         mTimeInMilliseconds=timiInMilliSeconds;
-        mUri =url;
+        mUri =uri;
     }
     public double getMagnitude(){
         return mMagnitude;
